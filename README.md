@@ -14,28 +14,24 @@ To use the StatusBarController library in your Android project, follow these ste
 ### Calculating Status Bar Height
 Use the `getHeight()` method to dynamically calculate the height of the status bar.
 
-    ```java
     int statusBarHeight = StatusBar.getHeight(activity);
-    ```
+    
 ### Hiding the Status Bar
 Use the `hide()` method to hide the status bar.
 
-    ```java
     StatusBar.hide(activity);
-    ```
+
 ### Showing the Status Bar
 Use the `show()` method to show the status bar.
 
-    ```java
     StatusBar.show(activity);
-    ```
+
 ### Checking Status Bar Visibility
 Use the `isHide()` and `isShow()` methods to check the visibility of the status bar.
 
-    ```java
     boolean isStatusBarHidden = StatusBar.isHide(activity);
     boolean isStatusBarVisible = StatusBar.isShow(activity);
-    ```
+
 ## License
 
 This library is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
